@@ -1,0 +1,19 @@
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.nav__item {
+  padding: 8px 3px; }
+  .nav__item-active {
+    padding-right: 24px;
+    padding-left: 24px;
+    border-radius: 8px;
+    background-color: #fff;
+    opacity: 0.1;
+    color: #fff; }
+
+/*# sourceMappingURL=nav.css.map */

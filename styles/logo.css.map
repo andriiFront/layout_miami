@@ -1,0 +1,1 @@
+{"version":3,"sources":["logo.scss"],"names":[],"mappings":"AAEA;EACE,2CAA2C;EAC3C,sBAAsB;EACtB,4BAA4B;EAC5B,2BAA2B,EAAA","file":"logo.css","sourcesContent":["@import \"utils\";\n\n.logo {\n  background-image: url(\"../images/logo.png\");\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n}\n"]}
