@@ -1,1 +1,1 @@
-{"version":3,"sources":["gallery.scss"],"names":[],"mappings":"AAEA;EACE,cAAc,EAAA","file":"gallery.css","sourcesContent":["@import \"utils\";\n\n.gallery__heading {\n  margin: 0 auto;\n}\n"]}
+{"version":3,"sources":["gallery.scss"],"names":[],"mappings":"AAEA;EACE,kBAAkB,EAAA;EAElB;IACE,mBAAmB,EAAA;EAGrB;IACE,gBAAgB,EAAA","file":"gallery.css","sourcesContent":["@import \"utils\";\n\n.gallery {\n  text-align: center;\n  \n  &__heading {\n    margin-bottom: 40px;\n  }\n\n  &__btn {\n    margin-top: 40px;\n  }\n}\n"]}

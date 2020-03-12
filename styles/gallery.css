@@ -1,4 +1,8 @@
-.gallery__heading {
-  margin: 0 auto; }
+.gallery {
+  text-align: center; }
+  .gallery__heading {
+    margin-bottom: 40px; }
+  .gallery__btn {
+    margin-top: 40px; }
 
 /*# sourceMappingURL=gallery.css.map */

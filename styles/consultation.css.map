@@ -1,0 +1,1 @@
+{"version":3,"sources":["consultation.scss"],"names":[],"mappings":"AAEA;EACE,kBAAkB,EAAA;EAElB;IACE,mBAAmB,EAAA","file":"consultation.css","sourcesContent":["@import \"utils\";\n\n.consultation {\n  text-align: center;\n  \n  &__heading {\n    margin-bottom: 40px;\n  }\n}\n"]}

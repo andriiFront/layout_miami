@@ -1,0 +1,1 @@
+{"version":3,"sources":["article.scss"],"names":[],"mappings":"AAEA;EACE,gBAAgB;EAChB,eAAe;EACf,iBAAiB,EAAA;EAEjB;IACE,eAAe;IACf,iBAAiB,EAAA","file":"article.css","sourcesContent":["@import \"utils\";\n\n.article {\n  text-align: left;\n  font-size: 16px;\n  line-height: 27px;\n  \n  &__heading {\n    font-size: 24px;\n    font-weight: bold;\n  }\n}\n"]}
