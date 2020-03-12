@@ -1,0 +1,1 @@
+{"version":3,"sources":["gallery.scss"],"names":[],"mappings":"AAEA;EACE,cAAc,EAAA","file":"gallery.css","sourcesContent":["@import \"utils\";\n\n.gallery__heading {\n  margin: 0 auto;\n}\n"]}

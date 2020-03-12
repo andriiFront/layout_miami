@@ -1,0 +1,21 @@
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%; }
+  .info__heading {
+    width: 50%;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: bold; }
+  .info__text {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    font-size: 16px;
+    line-height: 27px; }
+    .info__text-heading {
+      font-size: 24px;
+      font-weight: bold; }
+
+/*# sourceMappingURL=info.css.map */

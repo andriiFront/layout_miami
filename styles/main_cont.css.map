@@ -1,0 +1,1 @@
+{"version":3,"sources":["main_cont.scss"],"names":[],"mappings":"AAEA;EACE,cAAc;EACd,iBAAiB;EACjB,iBAAiB;EACjB,YAAY,EAAA;;AAGd;EACE,cAAc,EAAA","file":"main_cont.css","sourcesContent":["@import \"utils\";\n\n.main {\n  margin: 0 auto;\n  padding-top: 90px;\n  max-width: 1020px;\n  color: black;\n}\n\n.blue__theme {\n  color: #0075ff;\n}\n"]}
