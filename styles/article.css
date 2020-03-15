@@ -2,8 +2,33 @@
   text-align: left;
   font-size: 16px;
   line-height: 27px; }
+  .article__link {
+    color: black;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+    font-size: inherit; }
+    .article__link:hover {
+      color: #9fadc2; }
+  .article__center {
+    text-align: center; }
+  .article__image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s; }
+    .article__image:hover {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2); }
   .article__heading {
     font-size: 24px;
-    font-weight: bold; }
+    font-weight: bold;
+    color: #0075ff;
+    margin-bottom: 0; }
+  .article__subheading {
+    font-size: 14px;
+    color: #9fadc2; }
 
 /*# sourceMappingURL=article.css.map */

@@ -1,8 +1,8 @@
-.consultation {
+.contactUs {
   text-align: center; }
-  .consultation__heading {
+  .contactUs__heading {
     margin-bottom: 40px; }
-  .consultation__container {
+  .contactUs__container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -10,7 +10,10 @@
         -ms-flex-pack: justify;
             justify-content: space-between; }
     @media screen and (max-width: 950px) {
-      .consultation__container {
+      .contactUs__container {
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
@@ -18,13 +21,22 @@
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center; } }
-  .consultation__article {
-    max-width: 412px; }
-  .consultation__form {
+  .contactUs__contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 108px; }
+    @media screen and (max-width: 450px) {
+      .contactUs__contacts {
+        grid-gap: 50px; } }
+    @media screen and (max-width: 350px) {
+      .contactUs__contacts {
+        grid-template-columns: 1fr;
+        grid-gap: 0; } }
+  .contactUs__form {
     padding-top: 24px;
     width: 413px; }
     @media screen and (max-width: 550px) {
-      .consultation__form {
+      .contactUs__form {
         width: 100%; } }
 
-/*# sourceMappingURL=consultation.css.map */
+/*# sourceMappingURL=contactUs.css.map */

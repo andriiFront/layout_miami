@@ -1,6 +1,9 @@
 .photos {
   display: grid;
   grid-template-rows: 256px 91px 256px 91px 256px 91px; }
+  @media screen and (max-width: 900px) {
+    .photos {
+      grid-template-rows: 131px 91px 131px 91px 131px 91px; } }
   .photos__block {
     display: grid;
     grid-gap: 20px;
@@ -9,6 +12,9 @@
       grid-template-columns: 2fr 1fr; }
     .photos__block-wide-right {
       grid-template-columns: 1fr 2fr; }
+    @media screen and (max-width: 900px) {
+      .photos__block-wide-right, .photos__block-wide-left {
+        grid-template-columns: 1fr 1fr; } }
   .photos__img {
     border-radius: 8px;
     width: 100%;
