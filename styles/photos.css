@@ -25,7 +25,14 @@
        object-position: center; }
   .photos__text {
     font-size: 16px;
-    line-height: 61px; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
   .photos__link {
     font-size: 16px;
     -webkit-transition: color 0.3s;
