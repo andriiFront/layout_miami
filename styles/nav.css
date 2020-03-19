@@ -4,6 +4,7 @@
 
 @media screen and (max-width: 750px) {
   .nav__label {
+    cursor: pointer;
     display: inline-block;
     position: absolute;
     top: 48px;
@@ -49,11 +50,13 @@
   .nav__icon-times.fas {
     display: none; }
   .nav__list {
-    display: none;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    display: block;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     position: absolute;
-    left: 0;
+    left: 100%;
     top: -30px;
     padding-top: 165px;
     padding-left: 30px;
@@ -81,6 +84,6 @@
   #checkbox-menu:checked + label .fas.fa-times {
     display: block; }
   #checkbox-menu:checked ~ .nav__list {
-    display: block; } }
+    left: 0; } }
 
 /*# sourceMappingURL=nav.css.map */

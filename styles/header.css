@@ -12,7 +12,6 @@
     .header {
       height: 564px; } }
   .header__container {
-    padding-top: 30px;
     max-width: 1020px;
     margin: 0 auto;
     height: 100%;
@@ -31,7 +30,7 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     position: relative;
-    top: 51px; }
+    top: 56px; }
   .header__action {
     position: relative; }
     .header__action::after {
@@ -61,18 +60,21 @@
       color: #9fadc2; }
     .header__link-light:hover {
       color: #d3d9e2; }
-  .header__phone .fas.fa-phone {
-    display: none; }
+  .header__phone {
+    position: relative;
+    z-index: 3; }
+    .header__phone .fas.fa-phone {
+      display: none; }
+      @media screen and (max-width: 750px) {
+        .header__phone .fas.fa-phone {
+          display: block;
+          font-size: 18px; } }
     @media screen and (max-width: 750px) {
-      .header__phone .fas.fa-phone {
-        display: block;
-        font-size: 18px; } }
-  @media screen and (max-width: 750px) {
-    .header__phone span {
-      display: none; } }
+      .header__phone span {
+        display: none; } }
   .header__logo {
     position: absolute;
-    top: -44px;
+    top: -31px;
     left: calc(50% - 57.5px);
     z-index: 3; }
   .header__title {

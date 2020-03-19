@@ -14,14 +14,19 @@
     color: #0075ff;
     border: 2px solid #0075ff;
     border-radius: 8px;
+    cursor: pointer;
     -webkit-transition: background-color 1s;
     transition: background-color 1s; }
+    .gallery__btn:hover {
+      color: #fff;
+      background-color: #0075ff; }
+    .gallery__btn:focus {
+      -webkit-box-shadow: 0 6px 23px #7c779a75;
+              box-shadow: 0 6px 23px #7c779a75;
+      outline: none; }
     @media screen and (max-width: 550px) {
       .gallery__btn {
         width: 100%;
         margin-top: 0; } }
-    .gallery__btn:hover {
-      color: #fff;
-      background-color: #0075ff; }
 
 /*# sourceMappingURL=gallery.css.map */
