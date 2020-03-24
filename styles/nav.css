@@ -1,50 +1,49 @@
-.nav__input, .nav__label {
-  display: none;
-  font-size: 18px; }
-
-@media screen and (max-width: 750px) {
-  .nav__label {
-    cursor: pointer;
-    display: inline-block;
-    position: absolute;
-    top: 48px;
-    right: 30px;
-    z-index: 3; } }
-
-@media screen and (max-width: 450px) {
-  .nav__label {
-    top: 40px;
-    right: 20px;
-    z-index: 3; } }
-
-.nav__list {
+.nav {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
-.nav__item-active {
-  padding: 8px 24px;
-  border-radius: 8px;
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #fff; }
-
-.nav__link {
-  padding: 8px 3px;
-  border-radius: 8px;
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s; }
-  .nav__link:hover {
-    color: #9fadc2; }
-  .nav__link:focus {
+  display: flex; }
+  .nav__input, .nav__label {
+    display: none;
+    font-size: 18px; }
+  @media screen and (max-width: 750px) {
+    .nav__label {
+      cursor: pointer;
+      display: inline-block;
+      position: absolute;
+      top: 48px;
+      right: 30px;
+      z-index: 3; } }
+  @media screen and (max-width: 450px) {
+    .nav__label {
+      top: 40px;
+      right: 20px;
+      z-index: 3; } }
+  .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .nav__item-active {
+    padding: 8px 24px;
+    border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.1);
-    outline: none;
-    color: #9fadc2; }
+    color: #fff; }
+  .nav__link {
+    padding: 8px 3px;
+    border-radius: 8px;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s; }
+    .nav__link:hover {
+      color: #9fadc2; }
+    .nav__link:focus {
+      background-color: rgba(255, 255, 255, 0.1);
+      outline: none;
+      color: #9fadc2; }
 
 @media screen and (max-width: 750px) {
   .nav__icon-times.fas {

@@ -15,4 +15,8 @@ textarea {
   list-style-type: none;
   color: #fff; }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
 /*# sourceMappingURL=reset.css.map */
